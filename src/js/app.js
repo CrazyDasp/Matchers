@@ -7,4 +7,4 @@ console.log(sum([1, 2]));
 
 export function changeRotation(data) {
     return data.sort((a, b) => a.health > b.health ? -1 : 1)
-};
+}
